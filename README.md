@@ -1,8 +1,11 @@
 # Deployment For Your Own Jenkins Server
 
-## Security Action
+```shell
+cp .env.example .env
+docker-compose up -d
+```
 
-# Rebuilding Docker Image
+You can change your host port in .env file.
 
 # License
 

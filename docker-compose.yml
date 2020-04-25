@@ -1,0 +1,11 @@
+version: "3"
+services:
+  jenkins:
+    container_name: jenkins
+    build: .
+    ports:
+      - "${DOCKER_HOST_PORT}:8080"
+      - "50000:50000"
+    volumes:
+      - "./jenkins_home:/var/jenkins_home"
+    restart: always
