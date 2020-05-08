@@ -3,6 +3,7 @@ services:
   jenkins:
     container_name: jenkins
     build: .
+    network_mode: "host"
     ports:
       - "${DOCKER_HOST_PORT}:8080"
       - "50000:50000"
