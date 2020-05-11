@@ -1,2 +1,2 @@
-FROM jenkins/jenkins:lts
+FROM jenkins/jenkins:alpine
 USER root
