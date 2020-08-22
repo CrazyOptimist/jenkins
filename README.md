@@ -12,7 +12,7 @@ You can change your host port in .env file.
 ## Deploy from docker hub using docker command line
 
 ```shell
-docker run -itd -p 8080:8080 -p 50000:50000 --name jenkins_container crazyoptimist007/jenkins
+docker run -itd -p 8080:8080 -p 50000:50000 --name jenkins_server crazyoptimist/jenkins
 ```
 
 For more customized usage of the image, you can refer to this documentation:
