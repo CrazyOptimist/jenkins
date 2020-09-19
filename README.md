@@ -1,4 +1,4 @@
-# Deployment For Your Own Jenkins Server
+# Jenkins Server on Docker Compose
 
 ```shell
 mkdir jenkins-server
